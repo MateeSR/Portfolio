@@ -96,11 +96,26 @@ h3 {
 
 }
 
-.aboutme, footer {
+.botones a {
+    font-weight: bold;
+    font-size: 200%;
+    color:  #CCC9DC;
+    text-shadow: black 0.1em 0.1em 0.2em
+
+}
+
+footer {
     margin-top: 4%;
     background-color: #1B2A41;
 
 }
+
+.aboutme {
+    margin-bottom: 4%;
+    background-color: #1B2A41;
+
+}
+
 .estudios, .hobbies, .proyectos, .principio, .tecnologias, .contacto{
     margin-top: 4%;
 
