@@ -78,7 +78,8 @@ h3 {
     color:  #CCC9DC;
     margin-bottom: 50px;
     font-size: 50px;
-    text-shadow: black 0.1em 0.1em 0.2em
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-align: center;
     
 }
 .medio {
