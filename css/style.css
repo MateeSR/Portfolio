@@ -3,6 +3,16 @@
     src: url(/fonts/Inter-VariableFont_slnt,wght.ttf);
 }
 
+@media screen and (max-width: 390px) {
+    .hobbie {
+        font-size: 100%;
+        text-shadow: black 0.1em 0.1em 0.2em
+    
+    }
+  }
+
+
+
 body {
     background-color: #0C1821;
     background-size: cover;
@@ -16,9 +26,6 @@ body {
 }
 .divImagenMia {
     overflow: hidden;
-
-
-
 }
 
 .nombre h1{
@@ -84,7 +91,7 @@ h3 {
 }
 
 .hobbie {
-    font-size: 900%;
+    font-size: 650%;
     text-shadow: black 0.1em 0.1em 0.2em
 
 }
