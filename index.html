@@ -163,12 +163,14 @@
         <div class="container-fluid nombre">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 nav justify-content-center">
-                    <a href="https://drive.google.com/file/d/1FQ0fC4Mnx8P0lgLjb7R8Nxv5LxTSkcW-/view?usp=sharing">
+                    <a href="javascript:if (confirm('Quieres entrar a ver a mi curriculum?')) 
+                            {parent.location='https://drive.google.com/file/d/1FQ0fC4Mnx8P0lgLjb7R8Nxv5LxTSkcW-/view?usp=sharing';};">
                         <img class="logocontacto" src="img/cvlogo.png" alt="Logo de Curriculum Vitae">
                     </a>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 nav justify-content-center">
-                    <a href="https://www.linkedin.com/in/mateo-sosa-303716266/">
+                    <a href="javascript:if (confirm('Quieres entrar a ver a mi perfil de Linkedin?')) 
+                    {parent.location='https://www.linkedin.com/in/mateo-sosa-303716266/';};">
                         <img class="logocontacto" src="img/linkedinlogo.png" alt="Logo de Linkedin">
                     </a>
                 </div>
@@ -180,10 +182,10 @@
                         <h3>Escríbeme y en breve me pondre en contacto contigo</h3>
                         <form>               
                             <p >
-                            <label for="nombre" id="nombre" class="colocar_nombre">Nombre
+                            <label for="nombre" class="colocar_nombre">Nombre
 
                             </label>
-                                <input type="text"  id="nombre" placeholder="Escribe tu nombre">
+                                <input type="text"  placeholder="Escribe tu nombre">
                             </p>
                         
                             <p>
@@ -222,7 +224,5 @@
     <footer class="nav justify-content-center">
         <h1>Mateo Sosa Rodriguez</h1>
     </footer>
-<script src="js/particles.js"></script>
-<script src="js/app.js"></script>
 </body>
 </html>
