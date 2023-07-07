@@ -161,3 +161,9 @@ footer {
 .boton {
  margin-bottom: 5%;
 }
+
+form {
+    overflow: hidden;
+
+
+}
